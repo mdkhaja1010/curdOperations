@@ -1,0 +1,147 @@
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 9 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2025-08-31 20:50:10] [INFO ] [Utils]: [TestNG] Running:
+  C:\Users\moham\AppData\Local\Temp\testng-eclipse-76003235\testng-customsuite.xml
+
+[2025-08-31 20:50:11] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-08-31 20:50:12] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-08-31 20:50:12] [INFO ] [Utils]: [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[2025-08-31 20:50:13] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-08-31 20:50:13] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Employee created with ID: 19
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 19
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 19
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 19
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 19
+[2025-08-31 20:50:14] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.reporters.jq.Main@52909a97: 42 ms
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.reporters.FailedReporter@145e958f: 1 ms
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.reporters.XMLReporter@2905b568: 9 ms
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3193e21d: 8 ms
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@44eb2452: 5 ms
+[2025-08-31 20:50:14] [INFO ] [Utils]: [TestNG] Time taken by org.testng.internal.ExitCodeListener@31940704: 0 ms
+[2025-08-31 21:10:20] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Employee created with ID: 20
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 20
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 20
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-08-31 21:10:22] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 20
+[2025-08-31 21:10:23] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-08-31 21:10:23] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 20
+[2025-08-31 21:10:23] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-08-31 21:16:14] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-08-31 21:16:15] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-08-31 21:16:15] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-08-31 21:16:15] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-08-31 21:16:15] [INFO ] [MyApplicationAPIs]: Employee created with ID: 21
+[2025-08-31 21:16:15] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 21
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 21
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 21
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 21
+[2025-08-31 21:16:16] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-08-31 21:17:02] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Employee created with ID: 22
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 22
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 22
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-08-31 21:17:04] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 22
+[2025-08-31 21:17:05] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-08-31 21:17:05] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 22
+[2025-08-31 21:17:05] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-08-31 21:19:40] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Employee created with ID: 23
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 23
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 23
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 23
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 23
+[2025-08-31 21:19:42] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-09-02 19:25:00] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 15:55:47] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 16:04:42] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 16:05:47] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 16:05:48] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-09-21 16:05:49] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-09-21 16:05:49] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Employee created with ID: 24
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 24
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 24
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 24
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 24
+[2025-09-21 16:05:50] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-09-21 16:30:40] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Employee created with ID: 25
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 25
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 25
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-09-21 16:30:41] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 25
+[2025-09-21 16:30:42] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-09-21 16:30:42] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 25
+[2025-09-21 16:30:42] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
+[2025-09-21 16:34:05] [INFO ] [MyApplicationAPIs]: Fetching access token from Keycloak...
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Token successfully generated: eyJhbGciOiJSUzI...
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Employee list retrieved successfully with status: 200
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Creating new employee record...
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Employee created with ID: 26
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Fetching created employee with ID: 26
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Employee details retrieved successfully.
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Updating employee with ID: 26
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Employee updated successfully with new name: johnson
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Fetching updated employee details for ID: 26
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Updated employee details validated against schema.
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Deleting employee record with ID: 26
+[2025-09-21 16:34:06] [INFO ] [MyApplicationAPIs]: Employee deleted successfully.
