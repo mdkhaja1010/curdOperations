@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: selfRunner   # make sure your self-hosted runner is registered with this name
+    runs-on: selfRunner  
 
     steps:
     - name: Checkout Repository
