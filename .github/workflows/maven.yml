@@ -1,11 +1,13 @@
 name: CICD integrations
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main   # Trigger workflow only on pushes to main branch
 
 jobs:
   build:
-    runs-on: Demo
+    runs-on: selfRunner   # make sure your self-hosted runner is registered with this name
 
     steps:
     - name: Checkout Repository
@@ -23,11 +25,11 @@ jobs:
 
   archive-test-results:
     needs: build
-    runs-on: Demo
+    runs-on: selfRunner
     if: always()  # This ensures the job runs even if 'build' fails
     steps:
     - name: Archive Test Results
       uses: actions/upload-artifact@v4
       with:
         name: test-reports
-        path: ./ExtentReports/
+        path: ./reports/
