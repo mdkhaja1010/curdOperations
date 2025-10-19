@@ -146,6 +146,7 @@ public class MyApplicationAPIs {
 		Assert.assertTrue(utils.statuscodeValid(statuscode, 204, false), "status code missmatch");
 		logger.info("Employee deleted successfully.");
 		System.out.println("-----------------------Deleted Employee Record----------------------");
+		//working of te API's
 		
 	}
 
