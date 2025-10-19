@@ -5,13 +5,8 @@
     <classes>
       <class name="programs.MyApplicationAPIs">
         <methods>
-          <include name="deleteUpdatedEmployee"/>
-          <include name="gettingCreatedEmployeeDetails"/>
-          <include name="updateEmployee"/>
           <include name="gettingToken"/>
           <include name="createEmployee"/>
-          <include name="getEmploees"/>
-          <include name="gettingUpdatedEmployeeDetails"/>
         </methods>
       </class> <!-- programs.MyApplicationAPIs -->
     </classes>

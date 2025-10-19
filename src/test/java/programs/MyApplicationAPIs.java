@@ -2,6 +2,8 @@ package programs;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -21,11 +23,12 @@ public class MyApplicationAPIs {
 	private static final Logger logger = LoggerFactory.getLogger(MyApplicationAPIs.class);
 
 	public ReusableUtils utils;
+	public DBUtils dbutils;
 
 	public static String id;
 
 	public String token;
-	static Properties prop = new Properties();
+	public static Properties prop = new Properties();
 
 	static {
 		try {
@@ -40,6 +43,11 @@ public class MyApplicationAPIs {
 	public String client_secret = prop.getProperty("client_secret");
 	public String grant_type = prop.getProperty("grant_type");
 	public String tokenUrl = prop.getProperty("tokenUrl");
+	
+	public String getQuery="select * from employee";
+	
+	
+	
 
 	@BeforeTest
 	public String gettingToken() {
@@ -60,7 +68,7 @@ public class MyApplicationAPIs {
 	}
 
 	@Test(priority = 1)
-	public void getEmploees() {
+	public void getEmploees() throws SQLException {
 		utils = new ReusableUtils();
 		Response response = utils.doGet(token, baseUrl, "/api/employees");
 		int statuscode = response.getStatusCode();
@@ -69,17 +77,28 @@ public class MyApplicationAPIs {
 		Assert.assertTrue(utils.statuscodeValid(statuscode, 200, false), "status code missmatch");
 		logger.info("Employee list retrieved successfully with status: {}", statuscode);
 		System.out.println("-----------------------Employees list Printed----------------------");
-
+		ResultSet rs = dbutils.executeQuery(getQuery);
+		while (rs.next()) {
+		    System.out.println(rs.getString("name"));
+		    String name=rs.getString("name");
+		    logger.info("Employee list retrieved successfully with status: {}", name);
+		}
+		rs.close();
+		
 	}
 
 	@Test(priority = 2)
-	public void createEmployee() {
+	public void createEmployee() throws SQLException {
 		logger.info("Creating new employee record...");
 		utils = new ReusableUtils();
 		Map<String, Object> requestBody = new HashMap<>();
 		requestBody.put("name", "john");
 		requestBody.put("department", "IT");
 		requestBody.put("email", "john@example.com");
+		String name11=(String) requestBody.get("name");
+		String department11=(String) requestBody.get("department");
+		String email11=(String) requestBody.get("email");
+		
 		Response response = utils.doPost(token, baseUrl, "/api/employees", requestBody);
 		int statuscode = response.getStatusCode();
 		Assert.assertTrue(utils.statuscodeValid(statuscode, 201, false), "status code missmatch");
@@ -89,6 +108,21 @@ public class MyApplicationAPIs {
 		Assert.assertTrue(utils.fieldsValidation(nameValidation, "john", false), "user name miss match");
 		Assert.assertTrue(utils.fieldsValidation(emailValidation, "john@example.com", false), "email miss match");
 		logger.info("Employee created with ID: {}", id);
+		String getQuery1="select * from employee where id='"+id+"'";
+		ResultSet rs = dbutils.executeQuery(getQuery1);
+		while (rs.next()) {
+		    String name=rs.getString("name");
+		    String department=rs.getString("department");
+		    String email=rs.getString("email");
+		    Assert.assertTrue(utils.fieldsValidation(name11, name, false),"db name is mismatch");
+		    Assert.assertTrue(utils.fieldsValidation(department11, department, false),"db name is mismatch");
+		    Assert.assertTrue(utils.fieldsValidation(email11, email, false),"db name is mismatch");
+		    
+		   
+		    
+		}
+		rs.close();
+		
 		System.out.println("-----------------------Employee Created----------------------");
 
 	}
