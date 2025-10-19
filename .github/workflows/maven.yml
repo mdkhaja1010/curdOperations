@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: hostrunner  
+    runs-on: runner1  
 
     steps:
     - name: Checkout Repository
@@ -25,7 +25,7 @@ jobs:
 
   archive-test-results:
     needs: build
-    runs-on: hostrunner
+    runs-on: runner1
     if: always()  # This ensures the job runs even if 'build' fails
     steps:
     - name: Archive Test Results
